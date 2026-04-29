@@ -28,7 +28,6 @@ body {
   background: var(--bg);
   color: var(--text);
   overflow-x: hidden;
-
 }
 
 
@@ -454,7 +453,7 @@ body {
 .hl { color: var(--gold); font-weight: 500; }
 
 .stat-row {
-  display: flex; gap: 10px; margin: 14px 0;
+  display: flex; gap: 10px; margin: 14px 0; flex-wrap: wrap;
 }
 
 .stat-box {
@@ -464,6 +463,7 @@ body {
   border-radius: 2px;
   padding: 10px 16px; flex: 1;
   position: relative; overflow: hidden;
+  min-width: 100px;
 }
 
 .stat-box::after {
@@ -713,10 +713,12 @@ body {
               <div class="stat-box"><div class="stat-v">1 an</div><div class="stat-l">Relation client · Action</div></div>
               <div class="stat-box"><div class="stat-v">2 mois</div><div class="stat-l">Terrain · Endurance</div></div>
               <div class="stat-box"><div class="stat-v">2</div><div class="stat-l">Stages commerciaux</div></div>
+              <div class="stat-box"><div class="stat-v">6 mois</div><div class="stat-l">BUT Informatique</div></div>
             </div>
             <p class="body-p">Pendant un an les week-ends chez <span class="hl">Action</span>, j'ai appris ce que signifie être face à des clients en flux continu : accueillir, orienter, conseiller, toujours avec le sourire. Ce n'est pas un poste de rêve — c'est exactement pour ça que ça compte. J'y ai développé une vraie aisance relationnelle dans des conditions réelles.</p>
             <p class="body-p">Les travaux viticoles m'ont appris autre chose : tenir dans la durée, respecter un cadre exigeant, travailler sans relâche même quand c'est difficile. <span class="hl">L'endurance physique forme aussi le caractère.</span></p>
             <p class="body-p">Mes stages chez Périgord Cycle et Eurochassepêche m'ont permis d'observer de l'intérieur le fonctionnement commercial d'une entreprise — la logique du conseil, du chiffre, de la satisfaction client.</p>
+            <p class="body-p">Six mois en <span class="hl">BUT Informatique</span> m'ont également donné une vraie aisance avec les outils numériques — logiciels de gestion, CRM, outils de suivi client. Dans un métier où le digital prend de plus en plus de place, <span class="hl">savoir maîtriser les outils, c'est aussi un atout commercial.</span></p>
           </div>
         </div>
       </div>
